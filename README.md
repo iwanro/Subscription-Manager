@@ -1,6 +1,3 @@
-# Subscription-Manager
-A practical browser extension for organizing subscriptions. Get notifications, view nice analytics, export PDFs or Excel files, let AI categorize automatically, and manage your budget. Save money and avoid the stress of forgotten subscriptions. Try it for free!
-
 # Subscription Manager - Browser Extension
 
 A comprehensive subscription management browser extension that helps you track, analyze, and optimize all your recurring costs with advanced analytics and AI-powered features.
@@ -69,4 +66,3 @@ This project is developed under personal license terms. See individual files for
 ---
 
 **Save money and time with intelligent subscription management!** 💰📈
-

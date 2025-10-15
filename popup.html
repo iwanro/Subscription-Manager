@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Enhanced Subscription Manager</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    html, body {
+      width: 400px;
+      min-height: 600px;
+      max-height: 800px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-left">
+        <h1>📋 Subscription Manager</h1>
+        <div class="status-badges">
+          <div id="freeTrialBadge" class="status-badge free-trial" style="display: none;">
+            <span class="status-icon">🆓</span>
+            <span class="status-text">Free Trial</span>
+            <span class="status-days" id="freeTrialDays">14 days</span>
+          </div>
+          <div id="premiumBadge" class="status-badge premium" style="display: none;">
+            <span class="status-icon">💎</span>
+            <span class="status-text">Premium</span>
+            <span class="status-expiry" id="premiumExpiry">Active</span>
+          </div>
+          <div id="freeBadge" class="status-badge free" style="display: none;">
+            <span class="status-icon">🆓</span>
+            <span class="status-text">Free</span>
+            <span class="status-expiry">Unlimited</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-outline btn-sm" id="themeToggle">🌙</button>
+        <button class="btn btn-outline btn-sm" id="settingsBtn">⚙️</button>
+      </div>
+    </div>
+
+    <div class="nav-tabs">
+      <button class="nav-tab active" data-tab="overview" id="overviewTab">Overview</button>
+      <button class="nav-tab" data-tab="subscriptions" id="subscriptionsTab">Subscriptions</button>
+      <button class="nav-tab" data-tab="analytics" id="analyticsTab">Analytics</button>
+      <button class="nav-tab" data-tab="budget" id="budgetTab">Budget</button>
+    </div>
+
+    <div id="content" class="content">
+      <div class="loading">
+        <div class="loading-spinner"></div>
+        <p>Loading your subscriptions...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Container -->
+  <div id="modalContainer" class="hidden"></div>
+
+  <script src="utilities.js"></script>
+  <script src="dataManager.js"></script>
+  <script src="premium-features.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
