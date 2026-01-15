@@ -1,1 +1,17 @@
+# Privacy Policy - Subscription Manager Free
+
+  ## Data Collection
+  This extension stores subscription data locally on your device using Chrome's storage API. We do not collect, transmit, or store any data on external servers.
+
+  ## Data Stored
+  - Subscription names, prices, currencies, categories
+  - Payment dates and renewal reminders
+  - Notification preferences
+  - Theme preference
+
+  ## Data Sharing
+  We do not share, sell, or transfer any data to third parties.
+
+  ## Data Security
+  All data remains on your local device and is managed by Chrome's storage system.
 
